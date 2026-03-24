@@ -30,7 +30,6 @@
 
 - Astro
 - TypeScript
-- pnpm
 
 ## 项目结构
 
