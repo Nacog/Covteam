@@ -1,0 +1,53 @@
+---
+import SectionHeading from './SectionHeading.astro';
+
+interface MemberItem {
+	name: string;
+	role: string;
+	image: string;
+	link?: string;
+	bio: string;
+}
+
+interface Props {
+	id: string;
+	kicker: string;
+	title: string;
+	description: string;
+	items: MemberItem[];
+	active?: boolean;
+	retired?: boolean;
+}
+
+const { id, kicker, title, description, items, active = false, retired = false } = Astro.props;
+---
+
+<section class="section" id={id}>
+	<SectionHeading kicker={kicker} title={title} description={description} />
+
+	<div class:list={['member-grid', retired && 'retired-grid']}>
+		{
+			items.map((member) => (
+				<article class:list={['member-card', active && 'active']}>
+					<img src={member.image} alt={`${member.name} 头像`} loading="lazy" />
+					<div class="member-body">
+						<div class="member-meta">
+							<h3>{member.name}</h3>
+							<span>{member.role}</span>
+						</div>
+						<p>{member.bio}</p>
+						{
+							member.link ? (
+								<a href={member.link} target="_blank" rel="noreferrer">
+									访问主页
+								</a>
+							) : (
+								<span class="member-link muted">暂无公开主页</span>
+							)
+						}
+					</div>
+				</article>
+			))
+		}
+	</div>
+</section>
