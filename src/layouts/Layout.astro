@@ -5,8 +5,8 @@ interface Props {
 }
 
 const {
-	title = 'Covteam 网络安全实验室',
-	description = 'Covteam 团队主页，展示实验室方向、成绩、成员与招新信息。',
+	title = "Covteam 网络安全实验室",
+	description = "Covteam 团队主页，展示实验室方向、成绩、成员与招新信息。",
 } = Astro.props;
 ---
 
@@ -36,6 +36,44 @@ const {
     \|_______|\|_______|\|__|/           \|__|  \|_______|\|__|\|__|\|__|     \|__|
 `);
 	console.log("XHUCTF{this_is_a_fake_flag}");
+	console.log("Flag is here =>");
+	type _0x4f12 = 1 | 2 | 3 | 99;
+	type _0x1a3b = number[];
+	function _0xde01(_0x78cf: _0x1a3b): void {
+		let _0x921a: number[] = [];
+		let _0x33bc: number = 0;
+		let _0xf02d: boolean = true;
+		while (_0xf02d && _0x33bc < _0x78cf.length) {
+			const _0x11ab = _0x78cf[_0x33bc++] as _0x4f12;
+			switch (_0x11ab) {
+				case 1:
+					_0x921a.push(_0x78cf[_0x33bc++]);
+					break;
+				case 2:
+					for (let _0x88ea = 0; _0x88ea < _0x921a.length; _0x88ea++) {
+						_0x921a[_0x88ea] -= 1;
+					}
+					break;
+				case 3:
+					console.log(
+						_0x921a
+							.map((_0x22de) => String.fromCharCode(_0x22de))
+							.join(""),
+					);
+					break;
+				case 99:
+					_0xf02d = false;
+					break;
+				default:
+					throw new Error("Unknown opcode: " + _0x11ab);
+			}
+		}
+	}
+	const _0xa4b2: _0x1a3b = [
+		1, 89, 1, 73, 1, 86, 1, 68, 1, 85, 1, 71, 1, 124, 1, 117, 1, 105, 1,
+		106, 1, 116, 1, 96, 1, 106, 1, 116, 1, 96, 1, 117, 1, 115, 1, 118, 1,
+		102, 1, 96, 1, 103, 1, 109, 1, 98, 1, 104, 1, 126, 2, 3, 99,
+	];
 </script>
 
 <style>
@@ -54,7 +92,9 @@ const {
 	body {
 		background: #08111f;
 		color: #e6edf7;
-		font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+		font-family:
+			"Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+			sans-serif;
 	}
 
 	* {
