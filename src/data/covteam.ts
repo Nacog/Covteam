@@ -36,7 +36,7 @@ export const footerGroups = [
     title: '友情链接',
     links: [
       {href:'https://github.com/covteam',label:'oldGithub'},
-      {href:'https://ctftime.org/team/411206',label:'CtfTime'},
+      {href:'https://ctftime.org/team/411206',label:'CTFtime'},
     ],
   },
   {
