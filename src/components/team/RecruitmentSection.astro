@@ -5,6 +5,7 @@ interface RecruitmentData {
 	features: string[];
 	gains: string[];
 	hopes: string[];
+	news: string[];
 }
 
 interface Props {
@@ -38,6 +39,12 @@ const { recruitment } = Astro.props;
 			<h3>我们期待你</h3>
 			<ul>
 				{recruitment.hopes.map((item) => <li>{item}</li>)}
+			</ul>
+		</article>
+		<article class="info-card">
+			<h3>招新信息</h3>
+			<ul>
+				{recruitment.news.map((item) => <li>{item}</li>)}
 			</ul>
 		</article>
 	</div>

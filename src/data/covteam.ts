@@ -35,6 +35,8 @@ export const footerGroups = [
   {
     title: '友情链接',
     links: [
+      {href:'https://github.com/covteam',label:'oldGithub'},
+      {href:'https://ctftime.org/team/411206',label:'CtfTime'},
     ],
   },
   {
@@ -91,6 +93,9 @@ export const recruitment = {
     '拥有独立的技术博客',
     '肯于钻研',
   ],
+  news:[
+    '招新一般定在上半学期和下半学期的期中'
+  ],
 };
 
 // 现役成员
@@ -124,46 +129,46 @@ export const activeMembers = [
     bio: '2024 级',
   },
   {
-    name: '',
+    name: '1',
     role: 'CRYPTO',
     image: '',
     link: '',
     bio: '2023 级',
   },
   {
-    name: '',
+    name: '2',
     role: 'WEB',
     image: '',
     link: '',
     bio: '2023 级',
   },
   {
-    name: '',
+    name: '3',
     role: 'PWN',
     image: '',
     link: '',
     bio: '2023 级',
   },
   {
-    name: '',
+    name: '4',
     role: 'RE',
     image: '',
     link: '',
     bio: '2023 级',
   },
   {
-    name: '',
+    name: '5',
     role: 'WEB',
     image: '',
     link: '',
     bio: '2023 级',
   },
   {
-    name: '',
+    name: '6',
     role: 'WEB',
     image: '',
     link: '',
-    bio: '2024 级',
+    bio: '2023 级',
   },
 ];
 
@@ -284,41 +289,41 @@ export const retiredMembers = [
   {
     name: 'Sma11_Tim3',
     role: '二进制',
-    image: 'https://z3.ax1x.com/2021/10/02/4bYjfg.jpg',
+    image: '/img/default-ava.jpg',
     bio: '16 级信安。方向二进制，擅长 Windows、Linux 逆向，目前 PWN 入门中。',
   },
   {
     name: 'khuntor',
     role: 'WEB',
-    image: 'https://z3.ax1x.com/2021/10/02/4bYjfg.jpg',
+    image: '/img/default-ava.jpg',
     bio: '实验室管理员之一，主要学习 WEB 安全方向。',
   },
   {
     name: 'Na1vEt0',
     role: '成员',
-    image: 'https://z3.ax1x.com/2021/10/02/4bYjfg.jpg',
+    image: '/img/default-ava.jpg',
     link: 'https://naivete.cc',
     bio: '方向移动安全，主要擅长给 dalao 递 Java，喜欢二次元，嗜辣。',
   },
   {
     name: 'Jqqzzz',
     role: '成员',
-    image: 'https://z3.ax1x.com/2021/10/02/4bYjfg.jpg',
+    image: '/img/default-ava.jpg',
     link: 'https://blog.csdn.net/boomjq',
     bio: '方向 WEB 安全，目前还是个垃圾。',
   },
   {
     name: 'chase',
     role: '成员',
-    image: 'https://z3.ax1x.com/2021/10/02/4bYjfg.jpg',
+    image: '/img/default-ava.jpg',
     bio: '主要方向 WEB 安全，对 sql 注入、文件包含、上传和 xss 有初步了解。',
   },
-  { name: 'xiafeng2333', role: '成员', image: 'https://z3.ax1x.com/2021/10/02/4bYjfg.jpg', bio: '方向 WEB。' },
+  { name: 'xiafeng2333', role: '成员', image: '/img/default-ava.jpg', bio: '方向 WEB。' },
   {
     name: '向帅',
     role: '成员',
-    image: 'https://z3.ax1x.com/2021/10/02/4bYjfg.jpg',
+    image: '/img/default-ava.jpg',
     bio: '方向网络，对网络充满兴趣，喜欢学习新技术。',
   },
-  { name: '121212', role: '成员', image: 'https://z3.ax1x.com/2021/10/02/4bYjfg.jpg', bio: '方向逆向。' },
+  { name: '121212', role: '成员', image: '/img/default-ava.jpg', bio: '方向逆向。' },
 ];

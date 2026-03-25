@@ -26,27 +26,38 @@ const { id, kicker, title, description, items, active = false } = Astro.props;
 
 	<div class="member-grid">
 		{
-			items.map((member) => (
-				<article class:list={['member-card', active && 'active']}>
-					<img src={member.image} alt={`${member.name} 头像`} loading="lazy" />
-					<div class="member-body">
-						<div class="member-meta">
-							<h3>{member.name}</h3>
-							<span>{member.role}</span>
+			items.map((member) => {
+				const homepage = member.link?.trim();
+
+				return (
+					<article class:list={['member-card', active && 'active']}>
+						<img
+							src={member.image || '/img/default-ava.jpg'}
+							alt={`${member.name || '成员'} 头像`}
+							loading="lazy"
+							onerror="this.onerror=null;this.src='/img/default-ava.jpg';"
+						/>
+						<div class="member-body">
+							<div class="member-meta">
+								<h3>{member.name}</h3>
+								<span>{member.role}</span>
+							</div>
+							<p>{member.bio}</p>
+							<div class="member-footer">
+								{
+									homepage ? (
+										<a href={homepage} target="_blank" rel="noreferrer">
+											访问主页
+										</a>
+									) : (
+										<span class="member-link muted">暂无公开主页</span>
+									)
+								}
+							</div>
 						</div>
-						<p>{member.bio}</p>
-						{
-							member.link ? (
-								<a href={member.link} target="_blank" rel="noreferrer">
-									访问主页
-								</a>
-							) : (
-								<span class="member-link muted">暂无公开主页</span>
-							)
-						}
-					</div>
-				</article>
-			))
+					</article>
+				);
+			})
 		}
 	</div>
 </section>
