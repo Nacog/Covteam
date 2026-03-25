@@ -6,6 +6,7 @@ import DirectionsSection from '../components/team/DirectionsSection.astro';
 import AchievementsSection from '../components/team/AchievementsSection.astro';
 import MembersSection from '../components/team/MembersSection.astro';
 import RecruitmentSection from '../components/team/RecruitmentSection.astro';
+import FooterSection from '../components/team/FooterSection.astro';
 import TeamPageStyles from '../components/team/TeamPageStyles.astro';
 import {
 	directions,
@@ -45,8 +46,8 @@ const stats = [
 			title="退役成员"
 			description="感谢曾经并肩作战的每一位成员，团队的气质由你们共同塑造。"
 			items={retiredMembers}
-			retired={true}
 		/>
 	</main>
+	<FooterSection />
 	<TeamPageStyles />
 </Layout>

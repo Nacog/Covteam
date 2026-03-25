@@ -2,19 +2,45 @@
 export const directions = [
   {
     title: '网络安全',
-    description: '通过掌握的网络安全知识，模拟黑客攻击对企业进行渗透测试并撰写测试报告，提供漏洞解决方案。',
+    description:
+      '通过掌握的网络安全知识，模拟黑客攻击对企业进行渗透测试并撰写测试报告，提供漏洞解决方案。',
   },
   {
     title: '内核安全',
-    description: '主要围绕逆向方向，学习汇编语言以及 Windows、Linux、Android、iOS 等平台的逆向知识。',
+    description:
+      '主要围绕逆向方向，学习汇编语言以及 Windows、Linux、Android、iOS 等平台的逆向知识。',
   },
   {
     title: '网络与服务器',
-    description: '熟悉掌握计算机网络各层重要协议以及服务器相关知识，具备稳定的基础设施理解能力。',
+    description:
+      '熟悉掌握计算机网络各层重要协议以及服务器相关知识，具备基础设施理解能力。',
   },
   {
     title: '网站开发',
-    description: '覆盖现代 Web 栈与浏览器生态，能够构建兼具实用性与专业性的动态网站与服务。',
+    description:
+      '覆盖现代 Web 栈与浏览器生态，能够构建兼具实用性与专业性的动态网站与服务。',
+  },
+];
+
+export const footerGroups = [
+  {
+    title: '页面导航',
+    links: [
+      { href: '#top', label: '返回顶部' },
+      { href: '#directions', label: '研究方向' },
+      { href: '#member', label: '现役成员' },
+      { href: '#retired', label: '退役成员' },
+    ],
+  },
+  {
+    title: '友情链接',
+    links: [
+    ],
+  },
+  {
+    title: '其他资源',
+    links: [
+    ],
   },
 ];
 
@@ -69,7 +95,70 @@ export const activeMembers = [
     role: 'PWN',
     image: 'https://blog.nacocx.dev/assets/touxiang.png',
     link: 'https://blog.nacocx.dev',
-    bio: '2024 级 PWN RE WEB都会一点点 其他成员的id不知道是什么，所以现役成员只写了我一个',
+    bio: '2024 级 PWN RE WEB都会一点点 其他成员的id不知道是什么，所以现役成员都没信息',
+  },
+  {
+    name: 'ep1phany',
+    role: 'MISC',
+    image: '',
+    link: '',
+    bio: '2024 级',
+  },
+  {
+    name: 'Polaris',
+    role: 'WEB',
+    image: '',
+    link: '',
+    bio: '2024 级',
+  },
+  {
+    name: 'HaZardJ11',
+    role: 'WEB',
+    image: '',
+    link: '',
+    bio: '2024 级',
+  },
+  {
+    name: '',
+    role: 'CRYPTO',
+    image: '',
+    link: '',
+    bio: '2023 级',
+  },
+  {
+    name: '',
+    role: 'WEB',
+    image: '',
+    link: '',
+    bio: '2023 级',
+  },
+  {
+    name: '',
+    role: 'PWN',
+    image: '',
+    link: '',
+    bio: '2023 级',
+  },
+  {
+    name: '',
+    role: 'RE',
+    image: '',
+    link: '',
+    bio: '2023 级',
+  },
+  {
+    name: '',
+    role: 'WEB',
+    image: '',
+    link: '',
+    bio: '2023 级',
+  },
+  {
+    name: '',
+    role: 'WEB',
+    image: '',
+    link: '',
+    bio: '2024 级',
   },
 ];
 
@@ -145,7 +234,7 @@ export const retiredMembers = [
     bio: '2019 级，pwnbye4l4^^',
   },
   { name: 'blacktea', role: 'PWN', image: '/img/blacktea.jpg', bio: '2020 级，pwn20 级预备队员，实验室吟游诗人。' },
-  { name: '沐蠡', role: 'WEB', image: '/img/muli.jpg', bio: '2020 级，web 萌新一枚。' },
+  { name: '沐蛐', role: 'WEB', image: '/img/muli.jpg', bio: '2020 级，web 萌新一枚。' },
   {
     name: 'T04hig5t4',
     role: 'WEB',
@@ -185,7 +274,7 @@ export const retiredMembers = [
     role: 'WEB',
     image: '/img/huol20.jpg',
     link: 'http://too0p.top/',
-    bio: '2019 级，web 组划水选手，门门想会，样样瘟。',
+    bio: '2019 级，web 组划水选手，门门想会，样样稀松。',
   },
   {
     name: 'Sma11_Tim3',
