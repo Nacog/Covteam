@@ -1,6 +1,7 @@
-# Covteam 团队主页
+# 西华大学Covteam战队主页
 
-这是一个基于 Astro 构建的 Covteam 团队主页项目，用于展示西华大学网络安全兴趣小组的团队介绍、研究方向、历史成绩、成员信息与招新内容。
+Git Page: https://covteam.github.io/Covteam/
+
 
 ## 团队介绍
 
