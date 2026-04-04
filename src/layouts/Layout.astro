@@ -26,6 +26,11 @@ const {
 	</body>
 </html>
 <script>
+	const _0xa4b2: _0x1a3b = [
+		1, 89, 1, 73, 1, 86, 1, 68, 1, 85, 1, 71, 1, 124, 1, 117, 1, 105, 1,
+		106, 1, 116, 1, 96, 1, 106, 1, 116, 1, 96, 1, 117, 1, 115, 1, 118, 1,
+		102, 1, 96, 1, 103, 1, 109, 1, 98, 1, 104, 1, 126, 2, 3, 99,
+	];
 	console.log(String.raw`
  ________  ________  ___      ___ _________  _______   ________  _____ ______      
 |\   ____\|\   __  \|\  \    /  /|\___   ___\\  ___ \ |\   __  \|\   _ \  _   \    
@@ -39,10 +44,11 @@ const {
 	console.log("Flag is here =>");
 	type _0x4f12 = 1 | 2 | 3 | 99;
 	type _0x1a3b = number[];
-	function _0xde01(_0x78cf: _0x1a3b): void {
+	((_0x78cf: _0x1a3b): void => {
 		let _0x921a: number[] = [];
 		let _0x33bc: number = 0;
 		let _0xf02d: boolean = true;
+
 		while (_0xf02d && _0x33bc < _0x78cf.length) {
 			const _0x11ab = _0x78cf[_0x33bc++] as _0x4f12;
 			switch (_0x11ab) {
@@ -58,7 +64,7 @@ const {
 					console.log(
 						_0x921a
 							.map((_0x22de) => String.fromCharCode(_0x22de))
-							.join(""),
+							.join("")
 					);
 					break;
 				case 99:
@@ -68,12 +74,8 @@ const {
 					throw new Error("Unknown opcode: " + _0x11ab);
 			}
 		}
-	}
-	const _0xa4b2: _0x1a3b = [
-		1, 89, 1, 73, 1, 86, 1, 68, 1, 85, 1, 71, 1, 124, 1, 117, 1, 105, 1,
-		106, 1, 116, 1, 96, 1, 106, 1, 116, 1, 96, 1, 117, 1, 115, 1, 118, 1,
-		102, 1, 96, 1, 103, 1, 109, 1, 98, 1, 104, 1, 126, 2, 3, 99,
-	];
+	})([] as unknown as _0x1a3b);
+	console.log(_0xa4b2)
 </script>
 
 <style>
