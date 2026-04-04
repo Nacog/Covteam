@@ -105,7 +105,7 @@ export const activeMembers = [
   {
     name: 'Nacocx',
     role: 'PWN',
-    image: 'https://blog.nacocx.dev/assets/touxiang.png',
+    image: 'https://avatars.githubusercontent.com/u/88483952?v=4',
     link: 'https://blog.nacocx.dev',
     bio: '2024 级 PWN RE WEB都会一点点 其他成员的id不知道是什么，所以现役成员都没信息',
   },
